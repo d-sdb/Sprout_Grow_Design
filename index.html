@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprout and Grow</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        /* Global styles */
+        body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+        }
+
+        /* Tan Bar above the logo */
+        .tan-bar {
+          background-color: #f0e8c4;  /* tan background for the thin bar */
+          text-align: center;           /* center the text */
+          padding: 0;                  
+          font-size: 24px;              /* font size for the text */
+          color: #0c4438;
+        }
+
+        /* Header styles (background behind logo) */
+        header {
+          background-color: #dfe1d3; /* background color for the header */
+          padding: 0;                  
+          display: flex;               /* flexbox to align the logo */
+          justify-content: flex-start; /* aligned logo to the left */
+          align-items: center;         /* vertically centered the logo */
+          height: 100px;               /* set a specific height for the header */
+        }
+
+        /* Logo styles */
+        .logo {
+          max-height: 100px;           /*  max height for the logo */
+          max-width: 100%;             /* width allows the logo to resize and be flexible */
+        }
+
+        /* Navigation Bar styles */
+        nav {
+          background-color: #333;  /* Dark background for the navbar */
+          padding: 10px 20px;        /* Padding around the nav */
+          text-align: center;        /* Centering the navbar links */
+        }
+
+        /* Styles for the navigation links */
+        nav a {
+          color: white;             /* white text color */
+          padding: 14px 20px;        /* padding inside each link */
+          text-decoration: none;     /* removed underlines */
+          display: inline-block;     /* aligned links horizontally */
+          font-size: 16px;           /* set font size to 16px */
+          margin: 0 10px;            /* spacing between links */
+        }
+
+        /* Hover effect on the navigation links */
+        nav a:hover {
+          background-color: #575757; /* Darker background on hover */
+          border-radius: 5px;        /* Rounded corners on hover */
+        }
+
+        /* Main content area */
+        main {
+          padding: 0;               
+          text-align: center;
+        }
+
+        .centered-image {
+          display: block;           /* a block-level element */
+          margin: 20px auto;        /*  image horizontally centered added a vertical margin */
+          max-width: 90%;           
+          height: auto;             /* image's aspect ratio */
+        }
+
+        /* styles for the header text below the navbar */
+        .header-section {
+          text-align: center;
+          padding: 0;               
+          background-color: white;
+        }
+
+        .header-section h1 {
+          font-size: 48px;
+          margin: 0;
+        }
+
+        body {
+          font-family: Georgia, serif;
+        }
+
+        h3 {
+         text-align: center;
+        }
+
+        /* image container  */
+        .image-container {
+          display: flex;               /* flexbox to display images  */
+          justify-content: center;     /* centering images horizontally */
+          gap: 20px;                   /* space between the images */
+          margin-top: 20px;            /* space above the images */
+        }
+
+        .image-container img {
+          max-width: 45%;              
+          height: auto;   }
+
+        /* footer styles (green background) */
+        footer {
+          background-color: #2c745e; /* dark green footer background  */
+          padding: 20px;
+          text-align: center;
+        }
+
+        footer p {
+          margin: 0;
+          color: whitesmoke;  /* white text color for better contrast */
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+
+    <!-- tan bar above the logo -->
+    <div class="tan-bar">
+       50% off Perennials for the Fall Season!
+    </div>
+
+    <main>
+        <!-- header section with logo -->
+        <header>
+            <img src="images/sprout-grow-horizontal-524.jpg" alt="logo" class="logo">  <!-- logo file -->
+        </header>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="index.html" class="active">Home</a>        <!-- Link to index page -->
+            <a href="about.html">About</a>                     <!-- Link to about page -->
+            <a href="products.html">Products</a>               <!-- Link to products page -->
+            <a href="events.html">Events</a>                   <!-- Link to events page -->
+        </nav>
+
+        <!-- image below the navbar, above the header -->
+        <img src="images/greenhouse-4948726_1920.jpg" alt="Example Image" class="image-below-nav">  <!-- Path to image -->
+
+        <!-- header text below the navbar -->
+        <div class="header-section">
+            <h1 style="color:#6a9752;"><strong>Welcome to Sprout and Grow!</strong></h1>  <!-- Header text -->
+            <h2><strong>...................................</strong></h2> 
+        </div>
+
+        <h3 style="text-align: center;">Founded in Raleigh, we are your #1 source for all things plant related in North Carolina. We pride ourselves in our high quality organic plants grown and cared for through sustainable gardening practices.</h3>
+        
+        <img src="images\shrubs-4813685_1280.jpg" alt="A centered plant image" class="centered-image"> 
+        
+        <h3 style="text-align: center;">We strive to create a connected, passionate space for different types of gardeners. Whether you're an enviromental enthusiast, an urban gardener or even a educator or the head of a community group, Sprout and Grow has all your gardening needs.</h3>
+       
+        <div class="image-container">
+          <img src="images\flowers-164814_1280.jpg" alt="Plant Image 1">  
+          <img src="images\bloom-1840303_1280.jpg" alt="Plant Image 2">  
+      
+        </div>
+    </main>
+
+    <footer>
+        <!-- footer content -->
+        <p>&copy; 2024 Sprout and Grow. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

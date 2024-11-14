@@ -1,0 +1,45 @@
+/* Basic CSS file for Sprout & Grow website */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+  header img {
+    max-height: 100px;             /*  max height for the logo */
+    max-width: 100%;               /* lets the logo to resize and be flexible */
+  }
+  h3 {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+footer {
+    background-color: tan;  /* tan background for the footer */
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.image-below-nav {
+    width: 100%;              /* made image full-width */
+    max-height: 400px;        /*  limit height */
+    object-fit: cover;        /* makes image covers the area */
+    margin-bottom: 20px;      /* added some white space below the image */
+  }
+
+/* Add specific styles for navigation, main content, images, etc. */
